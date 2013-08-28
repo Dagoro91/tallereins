@@ -29,4 +29,27 @@ public class Suma ()
 		return contador;
 	}
 
+	// metodo para hacer la resta de dos numeros
+	public int restaSencilla (int a, int b)
+	{
+		// resta
+		return a - b;
+	}
+
+	public int restaCompleja(int [] numeros)
+	{
+		// contador
+		int contador = 0;
+
+		// se inicia el contador
+		contador = numeros[0] * 2;
+
+		for (int a : numeros)
+		{
+			// a contador se le resta el valor que toma la variable a
+			contador -= a;
+		}
+
+	}
+
 }
